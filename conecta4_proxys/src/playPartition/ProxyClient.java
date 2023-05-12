@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.Socket;
 import java.net.UnknownHostException;
 
 public class ProxyClient {
@@ -38,8 +37,8 @@ public class ProxyClient {
         boolean res = false;
 
         try{
-        	//System.out.println("funcion logData");
-            //Socket server = new Socket(InetAddress.getLocalHost(),PORT);
+        	
+        	
         	serv=new DatagramSocket();
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             
@@ -58,6 +57,11 @@ public class ProxyClient {
             data=baos.toByteArray();
             packet=new DatagramPacket(data, data.length,SERVER_ADDRESS,PORT);
             serv.send(packet);
+            
+            /*
+            
+            packet = new DatagramPacket(data, 1);
+            serv.receive(packet);*/
             
             data=new byte[1];
             DataInputStream dis = new DataInputStream(new ByteArrayInputStream(data));
