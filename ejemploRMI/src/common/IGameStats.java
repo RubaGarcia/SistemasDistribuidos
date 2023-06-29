@@ -3,7 +3,9 @@ package common;
 import java.rmi.Remote;
 
 public interface IGameStats extends Remote{
+	
     /**
+     * 
      * Take stats after starting the game
      */
     public void startGame () throws java.rmi.RemoteException;

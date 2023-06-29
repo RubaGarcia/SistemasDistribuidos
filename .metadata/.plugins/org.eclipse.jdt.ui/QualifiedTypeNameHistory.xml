@@ -13,14 +13,16 @@
     <fullyQualifiedTypeName name="java.net.DatagramPacket"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="common.IGameStats"/>
-    <fullyQualifiedTypeName name="java.rmi.Remote"/>
     <fullyQualifiedTypeName name="common.IGameControl"/>
     <fullyQualifiedTypeName name="gamePartition.GameControl"/>
-    <fullyQualifiedTypeName name="java.rmi.registry.LocateRegistry"/>
-    <fullyQualifiedTypeName name="java.rmi.registry.Registry"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.rmi.server.UnicastRemoteObject"/>
-    <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.rmi.Remote"/>
+    <fullyQualifiedTypeName name="java.rmi.server.UnicastRemoteObject"/>
+    <fullyQualifiedTypeName name="statsPartition.GameStats"/>
+    <fullyQualifiedTypeName name="java.rmi.registry.LocateRegistry"/>
+    <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
+    <fullyQualifiedTypeName name="java.rmi.registry.Registry"/>
+    <fullyQualifiedTypeName name="common.IGameStats"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
 </qualifiedTypeNameHistroy>
